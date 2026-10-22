@@ -1,20 +1,26 @@
 {
-  "name": "messenger-bot-panel",
+  "name": "vampire-rulex-bot",
   "version": "1.0.0",
-  "description": "Persistent Messenger Automated Task Panel using messagix-js",
-  "main": "index.js",
+  "description": "24/7 Messenger Auto Bot using meta-messenger.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "messagix-js": "latest",
-    "pino-pretty": "latest",
-    "ws": "latest"
+    "start": "node server.js",
+    "dev": "DEBUG=1 node server.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "author": "RAJ MISHRA",
+  "dependencies": {
+    "express": "latest",
+    "ws": "latest",
+    "meta-messenger.js": "latest"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "meta-messenger",
+    "facebook"
+  ],
+  "author": "Raj Mishra",
   "license": "MIT"
 }
