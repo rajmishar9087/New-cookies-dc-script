@@ -1,19 +1,20 @@
 {
   "name": "vampire-rulex-bot",
   "version": "1.0.0",
-  "description": "24/7 Messenger Auto Bot using meta-messenger.js",
-  "main": "server.js",
+  "description": "Messenger Auto Bot (Web UI + 24/7 Infinite Loop)",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "DEBUG=1 node server.js"
+    "start": "node index.js",
+    "dev": "DEBUG=1 node index.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
     "express": "latest",
-    "ws": "latest",
-    "meta-messenger.js": "latest"
+    "multer": "latest",
+    "meta-messenger.js": "latest",
+    "ws": "latest"
   },
   "keywords": [
     "messenger",
